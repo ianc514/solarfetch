@@ -1,0 +1,8 @@
+# Core pipeline
+requests>=2.31      # Overpass, Nominatim and Static Maps HTTP calls
+shapely>=2.0        # footprint polygons, bounding boxes, clipping
+pillow>=10.0        # tile stitching and cropping
+
+# Notebooks and plotting
+matplotlib>=3.8
+jupyterlab>=4.0

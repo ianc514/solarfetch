@@ -38,5 +38,10 @@ so `--dry-run` and `--no-images --no-solar` work without one. Imagery needs
 GOOGLE_MAPS_API_KEY with the Maps Static API enabled; solar needs the Solar API on the
 same key, and spends nothing for a house already cached in `data/house/solar/`
 
-## File structure:
+## Folder structure
 
+- **`data/`** — Downloaded imagery, cached tiles (`data/tiles/`), per-house crops
+  and manifests (`data/house/`), and footprint GeoJSON. Not included.
+- **`env/`** — Dependency and environment configuration.
+- **`notebooks/`** — Jupyter notebooks; the main way to run the pipeline.
+- **`scripts/`** — Importable modules and CLIs implementing each pipeline stage.
